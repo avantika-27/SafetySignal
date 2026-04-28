@@ -92,19 +92,14 @@ This report includes:
 - realism diagnostics (confidence intervals, bootstrap ranges, risk flags)
 - Boeing MAX retrospective case study linkage
 
-## FAA Corpus / RAG Notes
+## FAA Corpus / RAG
 
 - FAA source files are expected in `faa_corpus/`
 - `faa_regulation_rag.py` contains ingestion/retrieval helpers
 - dashboard retrieval logic also includes lexical fallback when vector retrieval is unavailable
 
-## Troubleshooting
 
-- If dashboard fails to start, reinstall `frontend_app/requirements.txt` in a clean env.
-- If evaluation cannot find clustered data, ensure `frontend_app/data/clustered_reports.csv` exists and is populated.
-- If a `pipeline_runs/.../artifacts/.../clustered_reports.csv` file is header-only, it came from a failed/stale run; use the populated file in `frontend_app/data/`.
-
-## Quick Start (Minimal)
+## Quick Start 
 
 ```bash
 python -m pip install -r frontend_app/requirements.txt
