@@ -94,9 +94,8 @@ This report includes:
 
 ## FAA Corpus / RAG
 
-- FAA source files are expected in `faa_corpus/`
+- FAA source files are in `faa_corpus/`
 - `faa_regulation_rag.py` contains ingestion/retrieval helpers
-- dashboard retrieval logic also includes lexical fallback when vector retrieval is unavailable
 
 
 ## Quick Start 
