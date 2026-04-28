@@ -1,0 +1,10 @@
+alert_id,cluster,cluster_label,alert_type,severity,priority,confidence,month_key,growth_pct,incidents,message,root_cause,regulation_mapping,relevance_score
+AVIATION SAFETY ALERT #2015-03-027,27,Cluster 27,spike,critical,CRITICAL,55,2015-03,0.0,1,"TREND: Cluster 27
+Growth: +0.0% (0->1 incidents/month)
+Period: Previous 3 months vs 2015-03",Common pattern: Cluster 27.,FAA/CFR RAG mapping available in notebook export,0.88
+AVIATION SAFETY ALERT #2023-02-032,32,Cluster 32,spike,critical,CRITICAL,55,2023-02,0.0,1,"TREND: Cluster 32
+Growth: +0.0% (0->1 incidents/month)
+Period: Previous 3 months vs 2023-02",Common pattern: Cluster 32.,FAA/CFR RAG mapping available in notebook export,0.88
+AVIATION SAFETY ALERT #2023-03-035,35,Cluster 35,spike,critical,CRITICAL,55,2023-03,0.0,1,"TREND: Cluster 35
+Growth: +0.0% (0->1 incidents/month)
+Period: Previous 3 months vs 2023-03",Common pattern: Cluster 35.,FAA/CFR RAG mapping available in notebook export,0.88

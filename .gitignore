@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Local vector stores and heavy local caches
+chroma_asrs_store/
+chroma_faa_regulations/
+embeddings_cache.npz
+
+# Run outputs/logs
+pipeline_runs/
+evaluation/reports/
