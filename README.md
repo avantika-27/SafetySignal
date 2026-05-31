@@ -88,7 +88,7 @@ This report includes:
 
 - confusion metrics (`metrics_all`, `metrics_asrs_rows_only`, `metrics_operational_subset`)
 - validation targets and pass/fail
-- FPR guard checks
+- FPR guard checks-
 - realism diagnostics (confidence intervals, bootstrap ranges, risk flags)
 - Boeing MAX retrospective case study linkage
 
